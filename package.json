@@ -1,0 +1,21 @@
+{
+  "name": "prototipoapi2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.114",
+    "@types/lodash": "^4.14.194",
+    "@types/node": "^18.15.11",
+    "@vercel/ncc": "^0.36.1"
+  }
+}
