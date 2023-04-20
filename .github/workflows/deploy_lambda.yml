@@ -26,5 +26,5 @@ jobs:
       - name: deploy 
         run: |
           npx ncc build index.ts
-          deploy.zip ./dist/*
+          index.zip
           aws lambda update-funcion-code --function-name=prototipoapi2-zip-file=fileb:deploy.zip
